@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/01_BasicSyntax.dir/main.cpp.o  -o 01_BasicSyntax 

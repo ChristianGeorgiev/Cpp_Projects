@@ -1,0 +1,3 @@
+/home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/01.BasicSyntax/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/01.BasicSyntax/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/01.BasicSyntax/cmake-build-debug/CMakeFiles/01_BasicSyntax.dir
