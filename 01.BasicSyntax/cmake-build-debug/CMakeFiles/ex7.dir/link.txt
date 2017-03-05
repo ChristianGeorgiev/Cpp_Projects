@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ex7.dir/ex7.cpp.o  -o ex7 

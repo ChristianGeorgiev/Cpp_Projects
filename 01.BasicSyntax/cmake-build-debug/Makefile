@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ex10
+
+# Build rule for target.
+ex10: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex10
+.PHONY : ex10
+
+# fast build rule for target.
+ex10/fast:
+	$(MAKE) -f CMakeFiles/ex10.dir/build.make CMakeFiles/ex10.dir/build
+.PHONY : ex10/fast
+
+#=============================================================================
 # Target rules for targets named 01_BasicSyntax
 
 # Build rule for target.
@@ -123,32 +136,392 @@ depend:
 	$(MAKE) -f CMakeFiles/01_BasicSyntax.dir/build.make CMakeFiles/01_BasicSyntax.dir/build
 .PHONY : 01_BasicSyntax/fast
 
-main.o: main.cpp.o
+#=============================================================================
+# Target rules for targets named ex7
 
-.PHONY : main.o
+# Build rule for target.
+ex7: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex7
+.PHONY : ex7
+
+# fast build rule for target.
+ex7/fast:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/build
+.PHONY : ex7/fast
+
+#=============================================================================
+# Target rules for targets named ex1
+
+# Build rule for target.
+ex1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex1
+.PHONY : ex1
+
+# fast build rule for target.
+ex1/fast:
+	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/build
+.PHONY : ex1/fast
+
+#=============================================================================
+# Target rules for targets named ex2
+
+# Build rule for target.
+ex2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex2
+.PHONY : ex2
+
+# fast build rule for target.
+ex2/fast:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/build
+.PHONY : ex2/fast
+
+#=============================================================================
+# Target rules for targets named ex3
+
+# Build rule for target.
+ex3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex3
+.PHONY : ex3
+
+# fast build rule for target.
+ex3/fast:
+	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/build
+.PHONY : ex3/fast
+
+#=============================================================================
+# Target rules for targets named ex4
+
+# Build rule for target.
+ex4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex4
+.PHONY : ex4
+
+# fast build rule for target.
+ex4/fast:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/build
+.PHONY : ex4/fast
+
+#=============================================================================
+# Target rules for targets named ex9
+
+# Build rule for target.
+ex9: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex9
+.PHONY : ex9
+
+# fast build rule for target.
+ex9/fast:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/build
+.PHONY : ex9/fast
+
+#=============================================================================
+# Target rules for targets named ex5
+
+# Build rule for target.
+ex5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex5
+.PHONY : ex5
+
+# fast build rule for target.
+ex5/fast:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/build
+.PHONY : ex5/fast
+
+#=============================================================================
+# Target rules for targets named ex6
+
+# Build rule for target.
+ex6: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex6
+.PHONY : ex6
+
+# fast build rule for target.
+ex6/fast:
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/build
+.PHONY : ex6/fast
+
+#=============================================================================
+# Target rules for targets named ex8
+
+# Build rule for target.
+ex8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex8
+.PHONY : ex8
+
+# fast build rule for target.
+ex8/fast:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/build
+.PHONY : ex8/fast
+
+ex1.o: ex1.cpp.o
+
+.PHONY : ex1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/01_BasicSyntax.dir/build.make CMakeFiles/01_BasicSyntax.dir/main.cpp.o
-.PHONY : main.cpp.o
+ex1.cpp.o:
+	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/ex1.cpp.o
+.PHONY : ex1.cpp.o
 
-main.i: main.cpp.i
+ex1.i: ex1.cpp.i
 
-.PHONY : main.i
+.PHONY : ex1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/01_BasicSyntax.dir/build.make CMakeFiles/01_BasicSyntax.dir/main.cpp.i
-.PHONY : main.cpp.i
+ex1.cpp.i:
+	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/ex1.cpp.i
+.PHONY : ex1.cpp.i
 
-main.s: main.cpp.s
+ex1.s: ex1.cpp.s
 
-.PHONY : main.s
+.PHONY : ex1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/01_BasicSyntax.dir/build.make CMakeFiles/01_BasicSyntax.dir/main.cpp.s
-.PHONY : main.cpp.s
+ex1.cpp.s:
+	$(MAKE) -f CMakeFiles/ex1.dir/build.make CMakeFiles/ex1.dir/ex1.cpp.s
+.PHONY : ex1.cpp.s
+
+ex10.o: ex10.cpp.o
+
+.PHONY : ex10.o
+
+# target to build an object file
+ex10.cpp.o:
+	$(MAKE) -f CMakeFiles/ex10.dir/build.make CMakeFiles/ex10.dir/ex10.cpp.o
+.PHONY : ex10.cpp.o
+
+ex10.i: ex10.cpp.i
+
+.PHONY : ex10.i
+
+# target to preprocess a source file
+ex10.cpp.i:
+	$(MAKE) -f CMakeFiles/ex10.dir/build.make CMakeFiles/ex10.dir/ex10.cpp.i
+.PHONY : ex10.cpp.i
+
+ex10.s: ex10.cpp.s
+
+.PHONY : ex10.s
+
+# target to generate assembly for a file
+ex10.cpp.s:
+	$(MAKE) -f CMakeFiles/ex10.dir/build.make CMakeFiles/ex10.dir/ex10.cpp.s
+.PHONY : ex10.cpp.s
+
+ex2.o: ex2.cpp.o
+
+.PHONY : ex2.o
+
+# target to build an object file
+ex2.cpp.o:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ex2.cpp.o
+.PHONY : ex2.cpp.o
+
+ex2.i: ex2.cpp.i
+
+.PHONY : ex2.i
+
+# target to preprocess a source file
+ex2.cpp.i:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ex2.cpp.i
+.PHONY : ex2.cpp.i
+
+ex2.s: ex2.cpp.s
+
+.PHONY : ex2.s
+
+# target to generate assembly for a file
+ex2.cpp.s:
+	$(MAKE) -f CMakeFiles/ex2.dir/build.make CMakeFiles/ex2.dir/ex2.cpp.s
+.PHONY : ex2.cpp.s
+
+ex3.o: ex3.cpp.o
+
+.PHONY : ex3.o
+
+# target to build an object file
+ex3.cpp.o:
+	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/ex3.cpp.o
+.PHONY : ex3.cpp.o
+
+ex3.i: ex3.cpp.i
+
+.PHONY : ex3.i
+
+# target to preprocess a source file
+ex3.cpp.i:
+	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/ex3.cpp.i
+.PHONY : ex3.cpp.i
+
+ex3.s: ex3.cpp.s
+
+.PHONY : ex3.s
+
+# target to generate assembly for a file
+ex3.cpp.s:
+	$(MAKE) -f CMakeFiles/ex3.dir/build.make CMakeFiles/ex3.dir/ex3.cpp.s
+.PHONY : ex3.cpp.s
+
+ex4.o: ex4.cpp.o
+
+.PHONY : ex4.o
+
+# target to build an object file
+ex4.cpp.o:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ex4.cpp.o
+.PHONY : ex4.cpp.o
+
+ex4.i: ex4.cpp.i
+
+.PHONY : ex4.i
+
+# target to preprocess a source file
+ex4.cpp.i:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ex4.cpp.i
+.PHONY : ex4.cpp.i
+
+ex4.s: ex4.cpp.s
+
+.PHONY : ex4.s
+
+# target to generate assembly for a file
+ex4.cpp.s:
+	$(MAKE) -f CMakeFiles/ex4.dir/build.make CMakeFiles/ex4.dir/ex4.cpp.s
+.PHONY : ex4.cpp.s
+
+ex5.o: ex5.cpp.o
+
+.PHONY : ex5.o
+
+# target to build an object file
+ex5.cpp.o:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/ex5.cpp.o
+.PHONY : ex5.cpp.o
+
+ex5.i: ex5.cpp.i
+
+.PHONY : ex5.i
+
+# target to preprocess a source file
+ex5.cpp.i:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/ex5.cpp.i
+.PHONY : ex5.cpp.i
+
+ex5.s: ex5.cpp.s
+
+.PHONY : ex5.s
+
+# target to generate assembly for a file
+ex5.cpp.s:
+	$(MAKE) -f CMakeFiles/ex5.dir/build.make CMakeFiles/ex5.dir/ex5.cpp.s
+.PHONY : ex5.cpp.s
+
+ex6.o: ex6.cpp.o
+
+.PHONY : ex6.o
+
+# target to build an object file
+ex6.cpp.o:
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/ex6.cpp.o
+.PHONY : ex6.cpp.o
+
+ex6.i: ex6.cpp.i
+
+.PHONY : ex6.i
+
+# target to preprocess a source file
+ex6.cpp.i:
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/ex6.cpp.i
+.PHONY : ex6.cpp.i
+
+ex6.s: ex6.cpp.s
+
+.PHONY : ex6.s
+
+# target to generate assembly for a file
+ex6.cpp.s:
+	$(MAKE) -f CMakeFiles/ex6.dir/build.make CMakeFiles/ex6.dir/ex6.cpp.s
+.PHONY : ex6.cpp.s
+
+ex7.o: ex7.cpp.o
+
+.PHONY : ex7.o
+
+# target to build an object file
+ex7.cpp.o:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/ex7.cpp.o
+.PHONY : ex7.cpp.o
+
+ex7.i: ex7.cpp.i
+
+.PHONY : ex7.i
+
+# target to preprocess a source file
+ex7.cpp.i:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/ex7.cpp.i
+.PHONY : ex7.cpp.i
+
+ex7.s: ex7.cpp.s
+
+.PHONY : ex7.s
+
+# target to generate assembly for a file
+ex7.cpp.s:
+	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/ex7.cpp.s
+.PHONY : ex7.cpp.s
+
+ex8.o: ex8.cpp.o
+
+.PHONY : ex8.o
+
+# target to build an object file
+ex8.cpp.o:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.o
+.PHONY : ex8.cpp.o
+
+ex8.i: ex8.cpp.i
+
+.PHONY : ex8.i
+
+# target to preprocess a source file
+ex8.cpp.i:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.i
+.PHONY : ex8.cpp.i
+
+ex8.s: ex8.cpp.s
+
+.PHONY : ex8.s
+
+# target to generate assembly for a file
+ex8.cpp.s:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.s
+.PHONY : ex8.cpp.s
+
+ex9.o: ex9.cpp.o
+
+.PHONY : ex9.o
+
+# target to build an object file
+ex9.cpp.o:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/ex9.cpp.o
+.PHONY : ex9.cpp.o
+
+ex9.i: ex9.cpp.i
+
+.PHONY : ex9.i
+
+# target to preprocess a source file
+ex9.cpp.i:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/ex9.cpp.i
+.PHONY : ex9.cpp.i
+
+ex9.s: ex9.cpp.s
+
+.PHONY : ex9.s
+
+# target to generate assembly for a file
+ex9.cpp.s:
+	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/ex9.cpp.s
+.PHONY : ex9.cpp.s
 
 # Help Target
 help:
@@ -157,11 +530,48 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
-	@echo "... rebuild_cache"
+	@echo "... ex10"
 	@echo "... 01_BasicSyntax"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... ex7"
+	@echo "... ex1"
+	@echo "... ex2"
+	@echo "... ex3"
+	@echo "... ex4"
+	@echo "... ex9"
+	@echo "... rebuild_cache"
+	@echo "... ex5"
+	@echo "... ex6"
+	@echo "... ex8"
+	@echo "... ex1.o"
+	@echo "... ex1.i"
+	@echo "... ex1.s"
+	@echo "... ex10.o"
+	@echo "... ex10.i"
+	@echo "... ex10.s"
+	@echo "... ex2.o"
+	@echo "... ex2.i"
+	@echo "... ex2.s"
+	@echo "... ex3.o"
+	@echo "... ex3.i"
+	@echo "... ex3.s"
+	@echo "... ex4.o"
+	@echo "... ex4.i"
+	@echo "... ex4.s"
+	@echo "... ex5.o"
+	@echo "... ex5.i"
+	@echo "... ex5.s"
+	@echo "... ex6.o"
+	@echo "... ex6.i"
+	@echo "... ex6.s"
+	@echo "... ex7.o"
+	@echo "... ex7.i"
+	@echo "... ex7.s"
+	@echo "... ex8.o"
+	@echo "... ex8.i"
+	@echo "... ex8.s"
+	@echo "... ex9.o"
+	@echo "... ex9.i"
+	@echo "... ex9.s"
 .PHONY : help
 
 
