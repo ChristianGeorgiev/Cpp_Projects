@@ -45,6 +45,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ex10.dir/DependInfo.cmake"
+  "CMakeFiles/snake.dir/DependInfo.cmake"
   "CMakeFiles/01_BasicSyntax.dir/DependInfo.cmake"
   "CMakeFiles/ex7.dir/DependInfo.cmake"
   "CMakeFiles/ex1.dir/DependInfo.cmake"

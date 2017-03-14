@@ -1,0 +1,4 @@
+/opt/clion-2016.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug

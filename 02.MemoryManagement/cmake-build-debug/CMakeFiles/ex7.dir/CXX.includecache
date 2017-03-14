@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/ex7.cpp
+iostream
+-
+string
+-
+

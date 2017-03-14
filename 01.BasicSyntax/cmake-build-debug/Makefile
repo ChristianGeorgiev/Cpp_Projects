@@ -124,6 +124,19 @@ ex10/fast:
 .PHONY : ex10/fast
 
 #=============================================================================
+# Target rules for targets named snake
+
+# Build rule for target.
+snake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 snake
+.PHONY : snake
+
+# fast build rule for target.
+snake/fast:
+	$(MAKE) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/build
+.PHONY : snake/fast
+
+#=============================================================================
 # Target rules for targets named 01_BasicSyntax
 
 # Build rule for target.
@@ -523,6 +536,33 @@ ex9.cpp.s:
 	$(MAKE) -f CMakeFiles/ex9.dir/build.make CMakeFiles/ex9.dir/ex9.cpp.s
 .PHONY : ex9.cpp.s
 
+snake.o: snake.cpp.o
+
+.PHONY : snake.o
+
+# target to build an object file
+snake.cpp.o:
+	$(MAKE) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/snake.cpp.o
+.PHONY : snake.cpp.o
+
+snake.i: snake.cpp.i
+
+.PHONY : snake.i
+
+# target to preprocess a source file
+snake.cpp.i:
+	$(MAKE) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/snake.cpp.i
+.PHONY : snake.cpp.i
+
+snake.s: snake.cpp.s
+
+.PHONY : snake.s
+
+# target to generate assembly for a file
+snake.cpp.s:
+	$(MAKE) -f CMakeFiles/snake.dir/build.make CMakeFiles/snake.dir/snake.cpp.s
+.PHONY : snake.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -531,6 +571,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... ex10"
+	@echo "... snake"
 	@echo "... 01_BasicSyntax"
 	@echo "... ex7"
 	@echo "... ex1"
@@ -572,6 +613,9 @@ help:
 	@echo "... ex9.o"
 	@echo "... ex9.i"
 	@echo "... ex9.s"
+	@echo "... snake.o"
+	@echo "... snake.i"
+	@echo "... snake.s"
 .PHONY : help
 
 
