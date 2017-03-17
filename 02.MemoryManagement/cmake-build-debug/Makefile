@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ex8
+
+# Build rule for target.
+ex8: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ex8
+.PHONY : ex8
+
+# fast build rule for target.
+ex8/fast:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/build
+.PHONY : ex8/fast
+
+#=============================================================================
 # Target rules for targets named ex7
 
 # Build rule for target.
@@ -390,6 +403,33 @@ ex7.cpp.s:
 	$(MAKE) -f CMakeFiles/ex7.dir/build.make CMakeFiles/ex7.dir/ex7.cpp.s
 .PHONY : ex7.cpp.s
 
+ex8.o: ex8.cpp.o
+
+.PHONY : ex8.o
+
+# target to build an object file
+ex8.cpp.o:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.o
+.PHONY : ex8.cpp.o
+
+ex8.i: ex8.cpp.i
+
+.PHONY : ex8.i
+
+# target to preprocess a source file
+ex8.cpp.i:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.i
+.PHONY : ex8.cpp.i
+
+ex8.s: ex8.cpp.s
+
+.PHONY : ex8.s
+
+# target to generate assembly for a file
+ex8.cpp.s:
+	$(MAKE) -f CMakeFiles/ex8.dir/build.make CMakeFiles/ex8.dir/ex8.cpp.s
+.PHONY : ex8.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -397,6 +437,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... ex8"
 	@echo "... ex7"
 	@echo "... ex6"
 	@echo "... ex5"
@@ -426,6 +467,9 @@ help:
 	@echo "... ex7.o"
 	@echo "... ex7.i"
 	@echo "... ex7.s"
+	@echo "... ex8.o"
+	@echo "... ex8.i"
+	@echo "... ex8.s"
 .PHONY : help
 
 

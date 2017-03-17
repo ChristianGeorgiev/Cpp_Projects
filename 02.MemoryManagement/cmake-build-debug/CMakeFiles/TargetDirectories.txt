@@ -1,4 +1,5 @@
 /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug/CMakeFiles/ex8.dir
 /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug/CMakeFiles/ex7.dir
 /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug/CMakeFiles/ex6.dir
 /home/christian/Desktop/SoftUni/C++_Programming/Cpp_Projects/02.MemoryManagement/cmake-build-debug/CMakeFiles/ex5.dir

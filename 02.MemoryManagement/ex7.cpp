@@ -20,6 +20,4 @@ void replaceStr(string &text, string search, const string replace){
             text.replace(text.find(search),text.find(search) - replace.length()-1, replace);
         }
     }
-
-
 }
